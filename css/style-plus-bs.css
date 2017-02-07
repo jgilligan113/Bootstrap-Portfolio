@@ -68,7 +68,8 @@ h2{
 	font-size: 17px;
 	font-family: 'Raleway', sans-serif;
 	font-weight:400;
-	
+}
+
 .footer{
 	background-color:#786638;
 	color:white;
@@ -78,7 +79,7 @@ h2{
 	padding-bottom: 30px;
 	border-top: 4px solid #ffB18c;
 }
-}
+
 form{
 	background-color: white;
 }
@@ -124,12 +125,29 @@ button{
     position:absolute;
     z-index: 0;
 }
+
+
 img {
 	position:relative;
 	float:left;
 	margin:10px;
 }
+.navbar-default .navbar-toggle:hover {
+    background-color: #f5c4a4;
+}
+.navbar-default .navbar-toggle:focus, {
+    background-color: #ffB18c;
+}
+.navbar-default .navbar-toggle:visted, {
+    background-color: #;
+}
+.btn{
+		background-color: #f5c4a4;
+	}
 
+.btn:hover{
+		background-color: #ffB18c;
+	}
 @media screen and (max-width:992px){
 	.connect{
 		width:100%;
@@ -139,13 +157,7 @@ img {
 		 width: 400px;
 		}   
 	
-	.btn{
-		background-color: #f5c4a4;
-	}
 
-	.btn:hover{
-		background-color: #ffB18c;
-	}
 
 }
 @media screen and (max-width: 820px){
