@@ -76,6 +76,10 @@ h1, h2{
 form{
 	background-color: white;
 }
+.form-group{
+	    float: left;
+    	width: 50%;
+}
 
 label{
 	margin-top: 15px;
