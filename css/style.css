@@ -1,0 +1,186 @@
+body
+{
+	
+}
+.content
+{
+	background-image: url("../assets/tree_bark.png");
+}
+
+.name
+{
+	float:left;
+	background-color:#4aaaa5;
+	color:#fff;
+	padding: 21px;
+	margin-left: 40px;
+	font-size: 24px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.nav
+{
+	text-align: right;
+	background-color:white;
+	padding:25px;
+	color:#777777;
+	border-bottom: 2px solid #cccccc;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-decoration: none;
+
+}
+p
+{
+	line-height: 120%;
+}
+
+.placeholder
+{
+	height:200px;
+	width: 200px;
+	float:left;
+	margin:30px;
+	position:relative;
+	left:30px;
+}
+
+.gallerytxt
+{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:white;
+	font-size: 18px;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding:10px;
+	position: relative;
+	top:80px;
+
+}
+a
+{
+	text-decoration: none;
+	font-size: 18px;
+	padding-right:5px;
+	color:#cccccc;
+}
+
+#profile
+{
+	height: 250px;
+	float:left;
+	margin: 15px;
+}
+.main-content
+{
+	float:left;
+	background-color: white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	padding:20px;
+	width:50%;
+	margin:40px;
+	border:20px;
+}
+
+.connect
+{
+	float:left;
+	background-color:white;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
+	padding:20px;
+	width:250px;
+	height:100px;
+	margin:40px;
+	position:relative;
+}
+footer
+{
+	clear:both;
+	background-color: #666666;
+	text-align:center;
+	color:#fff;
+	padding-top:30px;
+	padding-bottom: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 12px;
+	border-top: 4px solid #4aaaa5;
+	font-style:;
+
+}
+#footer
+{
+	background-image: url("../assets/tree_bark.png");
+}
+
+#thumbs
+{
+	position:relative;
+
+}
+
+#git
+{
+	position:absolute;
+	left:15px;
+	top:10px;
+}
+
+#slack
+{
+	position:absolute;
+	left:44%;
+	top:10px;
+
+}
+
+#link
+{
+	position:absolute; 
+	right:15px;
+	top:10px;
+}
+
+#hangman
+
+{
+	background-image: url("../images/Ctrl-lego-red.jpg");
+}
+
+#RPG
+{
+	background-image: url("../images/RPG-game-red.jpg");
+}
+
+#trivia
+{
+	background-image: url("../images/Trivia-game-red.jpg");
+}
+
+#infoWidget
+{
+	background-image: url("../images/Info-widget-red.jpg");
+}
+
+#rock
+{
+	background-image: url("../images/Rock-paper-scissors-red.jpg");
+}
+
+#websites
+{
+	background-image: url("../images/Web-design-red.jpg");
+}
+
+
+h3
+{	
+color:#4aaaa5;
+border-bottom: 2px solid #cccccc;
+font-family: 'Georgia', Times, Times New Roman, serif;
+padding-bottom:15px;
+font-weight: bold;
+font-size: 20px;
+margin-bottom: 10px;
+
+}
