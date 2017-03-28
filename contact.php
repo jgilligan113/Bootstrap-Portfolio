@@ -62,7 +62,7 @@ if(isset($_POST['submit'])){
 	</nav>
 
 
-
+<?=$thankYou ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-7 col-sm-12 main">
@@ -70,7 +70,7 @@ if(isset($_POST['submit'])){
 					<strong>Contact Me</strong>
 				</h1>
 				<form>
-  					<div class="form-group">
+  					<div class="form-group" method="post" action="contact.php">
 
     					<label for="fullName">Name</label>
     					<input type="text" class="form-control" id="fullName" name="fullName" placeholder="Jane Doe">
@@ -81,7 +81,7 @@ if(isset($_POST['submit'])){
    						<label for="comment">Comment</label>
    						<textarea class="form-control" rows="3" name ="comment" placeholder="Comment"></textarea>
 
-   						<button type="submit" class="btn">Submit</button>
+   						<button name="submit" type="submit" class="btn">Submit</button>
 
   					</div>
 				</form>
