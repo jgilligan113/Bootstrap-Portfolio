@@ -1,12 +1,11 @@
 <?php
 if(isset($_POST['submit'])){
     $to = "jgilligan.sav@gmail.com"; // this is your Email address
-    $from = $_POST['email']; // this is the sender's Email address
-    $first_name = $_POST['first_name'];
-    $last_name = $_POST['last_name'];
+    $from = $_POST['emailAddress']; // this is the sender's Email address
+    $fullName = $_POST['fullName'];
     $subject = "Form submission";
-    $message = $first_name . " " . $last_name . " wrote the following:" . "\n\n" . $_POST['comment'];
-    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['comment'];
+    $message = $fullName . " wrote the following:" . "\n\n" . $_POST['comment'];
+    $message2 = "Here is a copy of your message " . $fullName . "\n\n" . $_POST['comment'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
