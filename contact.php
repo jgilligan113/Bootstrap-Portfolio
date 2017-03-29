@@ -1,19 +1,30 @@
 <?php
-if(isset($_POST['submit'])){
-    $to = "jgilligan.sav@gmail.com"; // this is your Email address
-    $from = $_POST['emailAddress']; // this is the sender's Email address
-    $fullName = $_POST['fullName'];
-    $subject = "Form submission";
-    $message = $fullName . " wrote the following:" . "\n\n" . $_POST['comment'];
-    $message2 = "Here is a copy of your message " . $fullName . "\n\n" . $_POST['comment'];
+require_once('PHPMailer_5.2.4\class.phpmailer.php');
 
-    $headers = "From:" . $from;
-    $headers2 = "From:" . $to;
-    mail($to,$subject,$message,$headers);
-    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
-    echo "Mail Sent. Thank you " . $fullName . ", we will contact you shortly.";
-    // You can also use header('Location: thank_you.php'); to redirect to another page.
-    }
+if(isset($_POST["submit"])){
+$username = 'jgilligan.sav@gmail.com';
+$password = '3mailISmine!';
+$mail = new PHPMailer();
+$mail->IsSMTP();
+$mail->SMTPDebug = 1;
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = 'ssl';
+$mail->Host = "smtp.gmail.com";
+$mail->Port = 465;
+//$mail->addAttachment($_FILES["image"]["name"]); 
+$mail->IsHTML(true);
+$mail->Username = $username;
+$mail->Password = $password;
+$mail->SetFrom($_POST["from"]);
+$mail->Subject = "email from jessiegilligan.com";
+$mail->Body = $_POST["comment"];
+$mail->AddAddress($to);
+
+if(!$mail->Send())
+{
+    echo "Mailer error : " . $mail->ErrorInfo . "<br>";
+}
+}
 ?>
 
 <!DOCTYPE html>
@@ -69,8 +80,8 @@ if(isset($_POST['submit'])){
 				<h1 class="page-header">
 					<strong>Contact Me</strong>
 				</h1>
-				<form>
-  					<div class="form-group" method="post" action="contact.php">
+				<form method="post" action="contact.php">
+  					<div class="form-group">
 
     					<label for="fullName">Name</label>
     					<input type="text" class="form-control" id="fullName" name="fullName" placeholder="Jane Doe">
