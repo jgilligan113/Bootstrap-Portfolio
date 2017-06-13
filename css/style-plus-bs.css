@@ -31,7 +31,7 @@ a{
 body
 {
 	background-image: url("../assets/pinstripe.png");
-	height:100%;
+	
 
 }
 html {
@@ -82,7 +82,6 @@ h2{
 	padding-bottom: 30px;
 	border-top: 4px solid #f2b1a2;
 	position: absolute;
-	bottom: 0px;
 	width:100%;
 	height: 20%;
 }
