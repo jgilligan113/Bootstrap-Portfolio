@@ -87,7 +87,8 @@ if(isset($_POST['submit'])){
 				</form>
 			</div>
 
-			<div class="col-md-3 col-sm-12 col-xs-12 connect">
+	<!--CONNECT WITH ME-->
+			<div class="col-xs-4 connect">
 				<div class="row">
 					<div class="col-md-12">
 						<h2 class="page-header">
@@ -95,21 +96,21 @@ if(isset($_POST['submit'])){
 						</h2>
 					</div>
 				</div>
-			<!--CONNECT WITH ME-->
+
 				<div class="row">
-					<div class="col-md-4 col-sm-4 col-xs-4">
-						<a href="https://github.com/jgilligan113"  target="-blank"><img class="icons" src="assets/connect/github.png" alt="Jessie's Github" id="git"></a>
+					<div class="col-md-4">
+						<a href="https://github.com/jgilligan113"  target="_blank"><img class="icons" src="assets/jgGitHub.gif" alt="Jessie's Github" id="git"></a>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-4">
-						<a href="https://stackoverflow.com/users/7432072/jessie-gilligan"  target="-blank"><img class="icons" src="assets/connect/stack.png" alt="Jessie's Stack" id="slack"></a>
+					<div class="col-md-4">
+						<a href="https://stackoverflow.com/users/7432072/jessie-gilligan"  target="_blank"><img class="icons" src="assets/jgStack.gif" alt="Jessie's Stack" id="slack"></a>
 					</div>
-					<div class="col-md-4 col-sm-4 col-xs-4">
-						<a href="https://www.linkedin.com/in/jessicagilligan"  target="-blank"><img  class="icons" src="assets/connect/linkedin.png" alt="Jessie's Linkedin" id="link"></a>
+					<div class="col-md-4">
+						<a href="https://www.linkedin.com/in/jessicagilligan"  target="_blank"><img  class="icons" src="assets/jgLinkedIn.gif" alt="Jessie's Linkedin" id="link"></a>
 					</div>
 				</div>
 
 			</div>
-
+		</div>
 	</div>
 
 

@@ -1,5 +1,5 @@
 .navbar-brand{
-	background-color: #ffB18c;
+	background-color: #f2b1a2;
 	font-family: 'Lobster',cursive;
 	font-size: 36px;
 	color:#363636;
@@ -8,21 +8,21 @@
 }
 
 .navbar-header{
-	background-color: #ffB18c;
+	background-color: #f2b1a2;
 }
 
 .navbar-default .navbar-toggle {
     border-color: #ddd;
-    background-color: #ffB18c;}
+    background-color: #f2b1a2;}
 
 .nav, .navbar-collapse, .container-fluid{
-	background-color: #ffB18c;
+	background-color: #f2b1a2;
 }
 
 .container-fluid{
 	border-bottom-width:5px;
 	border-bottom-style:solid;
-	border-bottom-color: #786638;}
+	border-bottom-color: #7a8077;}
 
 a{
 	margin-top:10px;
@@ -31,14 +31,17 @@ a{
 body
 {
 	background-image: url("../assets/pinstripe.png");
+	height:100%;
 
 }
+html {
+	height: 100%
+}
 
-#profile{
+#profile {
 	width: 30rem;
-    height:30rem;
-    float:left;
-    margin: 10px 20px 20px 20px;
+    height: 30rem;
+    margin: auto;
 }
 
 .main,.connect{
@@ -48,15 +51,15 @@ body
 	/*background-color: #faeed8;*/
 }
 .connect{
-	text-align: center
+	text-align: left
 }
 .icons{
     position: relative;
+	max-width: 30px;
     bottom: 10px;
     float: left;
-    margin-top:20px
-    margin-bottom:10px;
-    margin-left: 33%}
+
+	}
 
 h1{
 	font-size: 22px;
@@ -71,13 +74,15 @@ h2{
 }
 
 .footer{
-	background-color:#786638;
+	background-color:#7a8077;
 	color:white;
 	text-align: center;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding-top:30px;
 	padding-bottom: 30px;
-	border-top: 4px solid #ffB18c;
+	border-top: 4px solid #ff897f;
+	position: relative;
+	bottom: 0px;
 }
 
 form{
@@ -101,7 +106,7 @@ button{
 
 .caption
 {
-	background-color:#fabaa5;
+	background-color:#f2b1a2;
 	color:white;
 	text-align:center;
 	z-index: 1;
@@ -138,7 +143,7 @@ img {
     background-color: #ffB18c;
 }
 .navbar-default .navbar-toggle:visted, {
-    background-color: #;
+    background-color: #f2b1a2;
 }
 .btn{
 		background-color: #f5c4a4;
